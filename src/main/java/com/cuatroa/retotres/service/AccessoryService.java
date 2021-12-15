@@ -55,6 +55,14 @@ public class AccessoryService {
                     accesoryDb.get().setMaterial(accesory.getMaterial());
                 }
 
+                if (accesory.getGender() != null) {
+                    accesoryDb.get().setGender(accesory.getGender());
+                }
+
+                if (accesory.getSize() != null) {
+                    accesoryDb.get().setSize(accesory.getSize());
+                }
+
                 if (accesory.getDescription() != null) {
                     accesoryDb.get().setDescription(accesory.getDescription());
                 }
